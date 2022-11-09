@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Launch Delivery Service",
+    "img": "https://images.squarespace-cdn.com/content/v1/55ce1e48e4b06614877a8bfb/1623187604879-XETCJ01W5UMEPDJW3YWD/IMG_0046.jpg?format=1000w",
+    "description": "Below, we selected 35 meal delivery services to try plus all the information you need before purchasing. Many of these meal kits we have tested ourselves, so you will see our rating and review, and we gotta say, they make us feel like accomplished home cooks. Even with our shopping guide, you may have a hard time choosing—which is why we have curated a selection of the best grocery delivery services to save time on cooking and budget-friendly meal kits to help you budget more when it comes to preparing meals for yourself or your family. The best meal delivery service for you will help boost your lifestyle and ensure you get the nutrition you need.All products featured on SELF are independently selected by our editors. If you buy something through our retail links, we may earn an affiliate commission.",
+    "pricing": 80,
+    "review": 0,
+    "sell": 300
+  },
+  {
+    "id": 2,
+    "name": "Cake Delivery Service",
+    "img": "https://cdn.shopify.com/s/files/1/0272/5848/6851/files/Sq-summer_collec_mobile_bbe6caa1-df7d-4a45-8f25-21b5ff69a4d0.jpg?v=1667895297&width=1000",
+    "description": "Below, we selected 35 meal delivery services to try plus all the information you need before purchasing. Many of these meal kits we have tested ourselves, so you will see our rating and review, and we gotta say, they make us feel like accomplished home cooks. Even with our shopping guide, you may have a hard time choosing—which is why we have curated a selection of the best grocery delivery services to save time on cooking and budget-friendly meal kits to help you budget more when it comes to preparing meals for yourself or your family. The best meal delivery service for you will help boost your lifestyle and ensure you get the nutrition you need.All products featured on SELF are independently selected by our editors. If you buy something through our retail links, we may earn an affiliate commission.",
+    "pricing": 100,
+    "review": 0,
+    "sell": 300
+  },
+  {
+    "id": 3,
+    "name": "Quick Grocery Service",
+    "img": "https://www.moneysavingexpert.com/content/dam/mse/editorial-image-library/guide-images/hero-food-shopping-grocery-delivery.jpg",
+    "description": "Below, we selected 35 meal delivery services to try plus all the information you need before purchasing. Many of these meal kits we have tested ourselves, so you will see our rating and review, and we gotta say, they make us feel like accomplished home cooks. Even with our shopping guide, you may have a hard time choosing—which is why we have curated a selection of the best grocery delivery services to save time on cooking and budget-friendly meal kits to help you budget more when it comes to preparing meals for yourself or your family. The best meal delivery service for you will help boost your lifestyle and ensure you get the nutrition you need.All products featured on SELF are independently selected by our editors. If you buy something through our retail links, we may earn an affiliate commission.",
+    "pricing": 50,
+    "review": 0,
+    "sell": 1300
+  },
+  {
+    "id": 4,
+    "name": "Home Cooking Assistancy Service",
+    "img": "https://zellersrestaurants.com/wp-content/uploads/2019/10/Home-Cooking-1024x575.jpg",
+    "description": "Below, we selected 35 meal delivery services to try plus all the information you need before purchasing. Many of these meal kits we have tested ourselves, so you will see our rating and review, and we gotta say, they make us feel like accomplished home cooks. Even with our shopping guide, you may have a hard time choosing—which is why we have curated a selection of the best grocery delivery services to save time on cooking and budget-friendly meal kits to help you budget more when it comes to preparing meals for yourself or your family. The best meal delivery service for you will help boost your lifestyle and ensure you get the nutrition you need.All products featured on SELF are independently selected by our editors. If you buy something through our retail links, we may earn an affiliate commission.",
+    "pricing": 200,
+    "review": 0,
+    "sell": 300
+  },
+  {
+    "id": 5,
+    "name": "Party Catering Service",
+    "img": "https://www.blacktruffle.net.au/wp-content/uploads/2020/07/cocktail-party.jpg",
+    "description": "Below, we selected 35 meal delivery services to try plus all the information you need before purchasing. Many of these meal kits we have tested ourselves, so you will see our rating and review, and we gotta say, they make us feel like accomplished home cooks. Even with our shopping guide, you may have a hard time choosing—which is why we have curated a selection of the best grocery delivery services to save time on cooking and budget-friendly meal kits to help you budget more when it comes to preparing meals for yourself or your family. The best meal delivery service for you will help boost your lifestyle and ensure you get the nutrition you need.All products featured on SELF are independently selected by our editors. If you buy something through our retail links, we may earn an affiliate commission.",
+    "pricing": 80,
+    "review": 0,
+    "sell": 300
+  },
+  {
+    "id": 6,
+    "name": "Instant Snacks Delivery Service",
+    "img": "https://i2.wp.com/passionatepennypincher.com/wp-content/uploads/2021/06/road-trip-snacklebox-768x1024.jpg",
+    "description": "Below, we selected 35 meal delivery services to try plus all the information you need before purchasing. Many of these meal kits we have tested ourselves, so you will see our rating and review, and we gotta say, they make us feel like accomplished home cooks. Even with our shopping guide, you may have a hard time choosing—which is why we have curated a selection of the best grocery delivery services to save time on cooking and budget-friendly meal kits to help you budget more when it comes to preparing meals for yourself or your family. The best meal delivery service for you will help boost your lifestyle and ensure you get the nutrition you need.All products featured on SELF are independently selected by our editors. If you buy something through our retail links, we may earn an affiliate commission.",
+    "pricing": 50,
+    "review": 0,
+    "sell": 300
+  }
+]

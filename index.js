@@ -16,11 +16,24 @@ const client = new MongoClient(uri, {
   useUnifiedTopology: true,
   serverApi: ServerApiVersion.v1,
 });
-client.connect((err) => {
-  const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  console.log("database connected");
-  client.close();
+
+async function run() {
+  try {
+    const serviceCollection = client
+      .db("tiffin-Bhai-Db")
+      .collection("services");
+
+    app.get("/services", async (req, res) => {
+      const query = {};
+      const cursor = serviceCollection.find(query);
+      const services = await cursor.toArray();
+      res.send(services);
+    });
+  } finally {
+  }
+}
+run().catch((err) => {
+  console.log("error");
 });
 
 app.get("/", (req, res) => {
