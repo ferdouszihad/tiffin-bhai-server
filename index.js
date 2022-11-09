@@ -23,6 +23,12 @@ async function run() {
       .db("tiffin-Bhai-Db")
       .collection("services");
 
+    app.get("/3services", async (req, res) => {
+      const query = {};
+      const cursor = serviceCollection.find(query).limit(3);
+      const services = await cursor.toArray();
+      res.send(services);
+    });
     app.get("/services", async (req, res) => {
       const query = {};
       const cursor = serviceCollection.find(query);
