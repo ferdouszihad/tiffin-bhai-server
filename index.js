@@ -5,6 +5,7 @@ const port = process.env.PORT || 5000;
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
 app.use(cors());
+app.use(express.json());
 
 // userName : adminDB
 // pass : fTHTcrpRTW7E1XdH
@@ -25,7 +26,7 @@ async function run() {
 
     app.get("/3services", async (req, res) => {
       const query = {};
-      const cursor = serviceCollection.find(query).limit(3);
+      const cursor = serviceCollection.find(query).sort({ _id: -1 }).limit(3);
       const services = await cursor.toArray();
       res.send(services);
     });
@@ -34,6 +35,12 @@ async function run() {
       const cursor = serviceCollection.find(query);
       const services = await cursor.toArray();
       res.send(services);
+    });
+
+    app.post("/addService", async (req, res) => {
+      const service = req.body;
+      const result = await serviceCollection.insertOne(service);
+      res.send(result);
     });
 
     app.get("/services/:sId", async (req, res) => {
