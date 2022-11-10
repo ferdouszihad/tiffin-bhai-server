@@ -24,6 +24,8 @@ async function run() {
       .db("tiffin-Bhai-Db")
       .collection("services");
 
+    const reviewCollection = client.db("tiffin-Bhai-Db").collection("reviews");
+
     app.get("/3services", async (req, res) => {
       const query = {};
       const cursor = serviceCollection.find(query).sort({ _id: -1 }).limit(3);
@@ -43,12 +45,21 @@ async function run() {
       res.send(result);
     });
 
+    app.post("/addReview", async (req, res) => {
+      const service = req.body;
+      const result = await reviewCollection.insertOne(service);
+      res.send(result);
+    });
+
     app.get("/services/:sId", async (req, res) => {
       const id = req.params.sId;
-      const query = { _id: ObjectId(id) };
-      const cursor = serviceCollection.findOne(query);
-      const serviceDetail = await cursor;
-      res.send(serviceDetail);
+      const query1 = { _id: ObjectId(id) };
+      const query2 = { serviceId: id };
+      const cursor1 = serviceCollection.findOne(query1);
+      const service = await cursor1;
+      const cursor2 = reviewCollection.find(query2);
+      const reviews = await cursor2.toArray();
+      res.send({ service, reviews });
     });
   } finally {
   }
